@@ -31,7 +31,7 @@ You must obtain a Google Cloud API key with Cloud Billing API access and place i
 ### VM Table
 
 ```
-$ ./get_gcp_pricing.py --vm | grep -A 30 N2D
+$ ./get_gcp_pricing.py --vm
 [...]
 E2 Machine Family (82 entries):
 --------------------------------------------------------------------------------
@@ -58,6 +58,7 @@ N2D Machine Family (78 entries):
 ### PD Table
 
 ```
+$ ./get_gcp_pricing.py --pd
 [...]
 SSD Persistent Disk (170 entries):
 --------------------------------------------------------------------------------
